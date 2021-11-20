@@ -42,29 +42,29 @@ public enum Size {
         return getName()  ;
     }
 
-    private String getEuroSize() {
-        if (getName() == XXS) {
-            System.out.println( 32 );
-        } else if (getName() == XS) {
-            System.out.println( 34 );
-        }
-        if (getName() == S) {
-            System.out.println( 36 );
-        } else if (getName() == M) {
-            System.out.println( 38 );
-        }
-        System.out.println( 40 );
-    }
-
-
-
-    void getDiscription(String Size ) {
-        if (Size == XXS) {
-            System.out.println( "Детский размер" );
-        }
-        System.out.println( "Взрослый размер" );
-
-    }
+//    private String getEuroSize() {
+//        if (getName() == XXS) {
+//            System.out.println( 32 );
+//        } else if (getName() == XS) {
+//            System.out.println( 34 );
+//        }
+//        if (getName() == S) {
+//            System.out.println( 36 );
+//        } else if (getName() == M) {
+//            System.out.println( 38 );
+//        }
+//        System.out.println( 40 );
+//    }
+//
+//
+//
+//    void getDiscription(String Size ) {
+//        if (Size == XXS) {
+//            System.out.println( "Детский размер" );
+//        }
+//        System.out.println( "Взрослый размер" );
+//
+//    }
 
     void getEuroSize (Size euro) {
         if (euro == XXS) {

@@ -35,6 +35,7 @@ public class Anagram {
         //возвращаем отсортированный массив в строку
         String lettersOnly = String.valueOf( chArr1 );
         String lettersOnly2 = String.valueOf( chArr2 );
+        System.out.println(Character.isLetter( Integer.parseInt( lettersOnly ) ));
 
        lettersOnly = lettersOnly.replaceAll( "[^a-zA-Z ]", "" );
         lettersOnly2 = lettersOnly2.replaceAll( "[^a-zA-Z ]", "" );
